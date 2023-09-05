@@ -131,3 +131,31 @@ h1 {
     #calories { font-size: 5.5em; }
     .calories-text { font-size: 1.3em; }
 }
+
+input[type="number"] {
+    width: 80px;  /* Set to 80 pixels wide, suitable for 4-digit numbers */
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.1);  /* Slight transparency to match the container */
+    color: #fff;  /* White text to match the dark theme */
+    border: 2px solid #FF4500;  /* Border color matching the calorie number */
+    border-radius: 5px;  /* Rounded corners */
+}
+
+/* New or updated CSS */
+.activity-display {
+    font-size: 0.8em; /* Smaller font size */
+    max-width: 500px; /* Max-width same as the container */
+    margin: 1em auto; /* Centering */
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.1);
+}
+
+.activity-display h3 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
